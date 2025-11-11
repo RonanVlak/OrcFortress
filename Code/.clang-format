@@ -1,0 +1,22 @@
+# We'll use defaults from the LLVM style, but with 4 columns indentation.
+BasedOnStyle: LLVM
+UseTab: Always
+IndentWidth: 4
+TabWidth: 4
+
+
+Language: Cpp
+# Force pointers to the type for C++.
+ColumnLimit: 120
+
+ReflowComments:  true
+PenaltyBreakComment: 0  # modified; was 300
+PenaltyBreakOpenParenthesis: 1  # modified; was 0
+
+DerivePointerAlignment: false
+PointerAlignment: Left
+#IndentAccessModifiers: false
+AccessModifierOffset: -4
+
+BreakBeforeBraces: Allman
+SeparateDefinitionBlocks: Always
