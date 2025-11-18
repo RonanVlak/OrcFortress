@@ -6,6 +6,8 @@ This is the final assignment for the course Advanced CPP programming of the Syst
 ## Short description
 
 OrcFortress is a C++ project (CMake) that builds a small game executable. The source is organized into frontend and backend components and includes an embedded sqlite3 external dependency.
+The frontend uses items from the STL library (like std::vector and std::string) and only smart pointers.
+The backend does not use the STL library, and only uses raw pointers and dynamic arrays.
 
 ## Requirements
 
